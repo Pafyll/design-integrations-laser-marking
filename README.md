@@ -1,2 +1,2 @@
-# design-integrations-laser-marking
-A repo to store our integration designs for laser etching.
+# Laser Marking integration designs
+A repo to store integration designs for our laser etching hardware and processes.
