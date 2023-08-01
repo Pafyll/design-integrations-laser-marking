@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["success"]
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9]{6}$"
+          },
+          "minItems": 1
+        }
+      },
+      "required": ["codes"]
+    }
+  },
+  "required": ["status", "data"]
+}

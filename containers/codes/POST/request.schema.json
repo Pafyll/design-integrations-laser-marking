@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "numberOfCodes": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": ["numberOfCodes"]
+}

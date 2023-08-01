@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "codes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-zA-Z0-9]{6}$"
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["codes"]
+}

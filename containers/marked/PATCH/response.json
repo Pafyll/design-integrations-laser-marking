@@ -1,0 +1,6 @@
+{
+  "status": "success",
+  "data": {
+    "updatedCodes": ["ABC123", "DEF456", "GHI789"]
+  }
+}
